@@ -8,8 +8,8 @@ local q 0.90 0.75 0.50 0.25 0.10
 if "`sas'"=="" {
 marksample touse
 qui capture if `touse'
-di "Durée pour différents quantiles de la fonction de survie"
-di "Définition des bornes " as result "Stata-ltable"
+di "Duree pour differents quantiles de la fonction de survie"
+di "Definition des bornes " as result "Stata-ltable"
 foreach q2 of local q {
 preserve
 qui capture keep if `touse'
@@ -34,8 +34,8 @@ restore
 }
 
 if "`sas'"!="" {
-di "Durée pour différents quantiles de la fonction de survie"
-di "Définition des bornes " as result "Sas-lifetest"
+di "Duree pour differents quantiles de la fonction de survie"
+di "Definition des bornes " as result "Sas-lifetest"
 
 marksample touse
 qui capture keep if `touse'
