@@ -1,5 +1,5 @@
 d 2017-10-11
-d commandes     : diverses commandes stata d'analyse ou autres
+d commandes     : diverses (petites) commandes stata d'analyse ou autres
 d auteur        : Marc Thevenin
 d affiliation   : ined-sms
 d support       : marc.thevenin@ined.fr
@@ -7,11 +7,12 @@ d                 https://mthevenin.github.io/stata_fr/
 
 p competout           : output analyse risques concurrents et execution test de gray avec R
 p competout_gray_test : exucute le test de gray sous R en mode batch
+p cpairs              : diverses statistiques de gof pour estimation des probabilités
 p ggof                : statistiques gof sous forme de graphiques
 p gpct                : graphique courbes sous forme de pourcentage
-p qlt                 : calcul des quantiles aprÃ¨s ltable, et calcul pour la dÃ©finition des bornes de sas
-p tmt3                : tests multiples pour paramÃ¨tres estimÃ©s par des modÃ¨le 
-p tdir                : affiche les fichiers dans un rÃ©pertoite temporaire initialisÃ© dans le fichier profile
-p terase              : supprime les ou des fichiers dans un rÃ©pertoite temporaire initialisÃ© dans le fichier profile
-p tsave               : enregistre une base dans un rÃ©pertoite temporaire initialisÃ© dans le fichier profile
-p tsave               : ouvre une base dans un rÃ©pertoite temporaire initialisÃ© dans le fichier profile
+p qlt                 : calcul des quantiles après ltable, et calcul pour la définition des bornes de sas
+p tmt3                : tests multiples pour paramètres estimés par des modèle 
+p tdir                : affiche les fichiers dans un répertoite temporaire initialisé dans le fichier profile
+p terase              : supprime les ou des fichiers dans un répertoite temporaire initialisé dans le fichier profile
+p tsave               : enregistre une base dans un répertoite temporaire initialisé dans le fichier profile
+p tsave               : ouvre une base dans un répertoite temporaire initialisé dans le fichier profile
